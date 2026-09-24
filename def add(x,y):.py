@@ -1,18 +1,24 @@
 #function that adds two numbers
+def show_result(result):
+    print(result)
+    if result == 50:
+        print("you found my personal number")
+
+
 def add(x, y):
-    print(x + y)
+    show_result(x + y)
 
 #function that subtracts two numbers
 def subtract(x, y):
-    print(x - y)
+    show_result(x - y)
 
 #function that multiplies two numbers
 def multiply(x, y):
-    print(x * y)
+    show_result(x * y)
 
 #function that divides two numbers
 def divide(x, y):
-    print(x / y)
+    show_result(x / y)
 
 
 
